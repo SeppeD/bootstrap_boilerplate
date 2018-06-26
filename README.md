@@ -8,14 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+How to get the development environment up and running.
 
-Clone this repository to your local directory with this command or click the top right button to clone this repo.
+1. Create a directory for the new project
+2. Clone the repository to your local directory and remove the .git folder when starting a new project
 ```
-git clone https://github.com/SeppeD/bootstrap_boilerplate.git
+git clone --depth 1 https://github.com/SeppeD/bootstrap_boilerplate.git .
+rm -rf .git
 ```
 
-Install node modules.
+3. Install node modules
 ```
 npm install
 ```
