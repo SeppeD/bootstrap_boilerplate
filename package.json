@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap_sass_boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate based on a coursetro.com post. Created using Bootstrap 4.0. and SASS by Seppe Devogelaere.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "SASS",
+    "Boilerplate",
+    "4"
+  ],
+  "author": "Seppe Devogelaere",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}

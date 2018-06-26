@@ -1,0 +1,22 @@
+/*Custom CSS*/
+
+$theme-colors: (
+  "primary": #d95700
+);
+
+$body-bg: #ededed;
+
+$font-family-base: "Montserrat";
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+.page-footer {
+  color: #ccc;
+  padding: 10px;
+  background-color: #222425;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
